@@ -10,7 +10,6 @@
 #   WHITE
 #   CYAN_LIGHT
 #   RED
-#   BLUE
 #   GREEN
 #   YELLOW
 # Arguments:
@@ -18,7 +17,7 @@
 #######################################
 print_banner() {
 
-clear
+  clear
 
   printf "\n\n"
 

@@ -29,14 +29,14 @@ EOF
 #######################################
 system_git_clone() {
   print_banner
-  printf "${WHITE} 💻 Fazendo download do código King Ticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Fazendo download do código KingTicket...${GRAY_LIGHT}"
   printf "\n\n"
 
 
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/maxuell02/maximatecnologia2.git /home/deploy/${instancia_add}/
+  git clone ${link_git} /home/deploy/${instancia_add}/
 EOF
 
   sleep 2
@@ -49,7 +49,7 @@ EOF
 #######################################
 system_update() {
   print_banner
-  printf "${WHITE} 💻 Vamos atualizar o sistema King Ticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos atualizar o sistema KingTicket...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -71,7 +71,7 @@ EOF
 #######################################
 deletar_tudo() {
   print_banner
-  printf "${WHITE} 💻 Vamos deletar o King Ticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos deletar o KingTicket...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -117,7 +117,7 @@ EOF
 #######################################
 configurar_bloqueio() {
   print_banner
-  printf "${WHITE} 💻 Vamos bloquear o King Ticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos bloquear o KingTicket...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -144,7 +144,7 @@ EOF
 #######################################
 configurar_desbloqueio() {
   print_banner
-  printf "${WHITE} 💻 Vamos Desbloquear o King Ticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos Desbloquear o KingTicket...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -170,7 +170,7 @@ EOF
 #######################################
 configurar_dominio() {
   print_banner
-  printf "${WHITE} 💻 Vamos Alterar os Dominios do King Ticket...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos Alterar os Dominios do KingTicket...${GRAY_LIGHT}"
   printf "\n\n"
 
 sleep 2
